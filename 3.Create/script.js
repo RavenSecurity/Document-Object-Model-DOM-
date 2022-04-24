@@ -10,8 +10,6 @@ function generateRandomColor() {
   }
 
 
-// generate eachn name's section
-
 function shuffle(array) {
   let currentIndex = array.length,  randomIndex;
 
@@ -33,6 +31,8 @@ function shuffle(array) {
 let arr = ["Gilles", "Jamie", "Jason", "Jeremy", "Martin", "Emre", "Rayane", "Rayhan", "Ricardo", "Steffanie", "Sebastien", "Tanguy", "Thibaud", "Zakaria"];
 
 shuffle(arr)
+
+// generate eachn name's section
 
 for (let elem of arr) {
     let nextSection = document.createElement("section");
